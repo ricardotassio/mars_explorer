@@ -1,3 +1,14 @@
+## Iniciando o ambiente
+1- Clone o repositorio
+> docker-compose up -d
+
+2 -  Para acessar o containe digite o comando abaixo:
+> docker exec -it mars_explorer /bin/bash
+
+3 - Para rodar o projeto:
+> npm start
+
+## Features
 [x] Criar um método principal da aplicação
 
 [x] Ler um arquivo de entrada
@@ -22,3 +33,6 @@
 
 [] Calcular deslocamento de cada sonda nos eixos x,y
 
+## Infraestrutura
+
+[x] Criar ambiente com docker-compose

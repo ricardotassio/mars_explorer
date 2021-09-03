@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  node:
+    container_name: mars_explorer
+    image: node:14
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./:/srv/app
+    working_dir: /srv/app
+    command: 'npx nodemon index.js '
