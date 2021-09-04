@@ -1,0 +1,18 @@
+const COORD_REGEX = /^\d\d[N|E|S|W]+$/gi
+const COMMANDER_REGEX = /^[L|M|R]{1,}$/gi
+
+const MATRIX_POSITION = []
+MATRIX_POSITION['NL'] = 'W'
+MATRIX_POSITION['NR'] = 'E'
+MATRIX_POSITION['WL'] = 'S'
+MATRIX_POSITION['WR'] = 'N'
+MATRIX_POSITION['SL'] = 'E'
+MATRIX_POSITION['SR'] = 'W'
+MATRIX_POSITION['EL'] = 'N'
+MATRIX_POSITION['ER'] = 'S'
+
+module.exports = {
+    COORD_REGEX,
+    COMMANDER_REGEX,
+    MATRIX_POSITION
+}
